@@ -3,21 +3,6 @@
 >This is a tutorial for the CTF Bandit, by OverTheWire. If you have not yet completed yourself, go try it out.
 >This file contains spoilers and solutions for the game
 
-## Index
-[What is Bandit?](#id-section1)
-[Bandit0](#id-section2)
-[Bandit1](#id-section3)
-[Bandit2](#id-section4)
-[Bandit3](#id-section5)
-[Bandit4](#id-section6)
-[Bandit5](#id-section7)
-[Bandit6](#id-section8)
-[Bandit7](#id-section9)
-[Bandit8](#id-section10)
-[Bandit9](#id-section11)
-[Bandit10](#id-section12)
-[Bandit11](#id-section13)
-
 ## What is Bandit?
 <div id='id-section1'/>
 
