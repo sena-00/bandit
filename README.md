@@ -3,6 +3,10 @@
 >This is a tutorial for the CTF Bandit, by OverTheWire. If you have not yet completed yourself, go try it out.
 >This file contains spoilers and solutions for the game
 
+## Index
+[What is Bandit?](#id-section1)
+
+<div id='id-section1'/>
 ## What is Bandit?
 
 Bandit is a CTF game aimed for complete beginners in the hacking scenario. The purpose of the game is to teach you the basics of CLI(command line interface) hacking aswell as other important concepts of cybersecurity.
@@ -33,6 +37,7 @@ This is because the file is named ".hidden", and will be automatically ignored w
 
 ![image](https://github.com/sena-00/bandit/assets/156020094/26532bc1-0099-4b17-9a03-4a531f3c6438)
 
+<div id='id-section4'/>
 ## Bandit 4
 Log in with the **bandit4** username and password and follow the same previous steps. Use `cd inhere` to enter the folder. List the directory using `ls -a`. We can see that there are numerous files inside and we are looking for the only human readable file, this is, a text file. To this effeciently, use the command `file` + `./*`. This will show all the files in the directory aswell as the type.
 
@@ -46,6 +51,14 @@ After logged in, enter the "inhere" folder and list the directory. The file we a
 You defenitely can and should search the file with all the details provided. However, using `find -size 1033c` does the trick. "Find" is used for navigating files. 1033 is the size and "c" for bytes.
 
 ![image](https://github.com/sena-00/bandit/assets/156020094/4ce20226-78ac-44b0-b8b9-70684a99b140)
+
+## Bandit 6
+
+Log in with the username and password for **bandit6**. In this level we are looking for a specific file:
+- owned by user bandit7
+- owned by group bandit6
+- 33 bytes in size
+
 
 
 
