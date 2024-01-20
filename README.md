@@ -68,6 +68,10 @@ Log in with the username and password for **bandit6**. In this level we are look
 - owned by group bandit6
 - 33 bytes in size
 
+There are many approaches to solve this. As mentioned before, you can and should be as precise as possible, but you can get away if you have a trained eye. In this example, you can use the `find` command + `-size 33c -readable`. This will show files that are: 1. 33 Bytes in size 2. Human readable (text). A very distinctive file is shown:
+
+
+
 
 
 
