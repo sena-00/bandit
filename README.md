@@ -79,6 +79,9 @@ First, use the `ls` command to list the files. We can see a "data.txt" file and 
 
 ![image](https://github.com/sena-00/bandit/assets/156020094/fa61988b-5d30-4920-af3a-19a66c4f5e9d)
 
+## Bandit 8
+<div id='id-section10'/>
+
 
 
 
