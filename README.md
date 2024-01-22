@@ -68,7 +68,20 @@ Log in with the username and password for **bandit6**. In this level we are look
 - owned by group bandit6
 - 33 bytes in size
 
-There are many approaches to solve this. As mentioned before, you can and should be as precise as possible, but you can get away if you have a trained eye. In this example, you can use the `find` command + `-size 33c -readable`. This will show files that are: 1. 33 Bytes in size 2. Human readable (text). A very distinctive file is shown:
+There are many approaches to solve this. In this example, you can use the `find` command + `-type f -user bandit7 -group bandit6 -size 33c 2>/dev/null`. This will show **files* that are: 1. Owned by user "bandit7", 2. Owned by group "bandit7", 3. Of 33 bytes in size and 4. append all the "permission denied" messages
+
+![image](https://github.com/sena-00/bandit/assets/156020094/1230dc04-246f-45ee-8927-b1fb931a4871)
+
+## Bandit 7
+<div id='id-section9'/>
+
+First, use the `ls` command to list the files. We can see a "data.txt" file and we are searching for the text next to the word "millionth". You can use grep to complete this task with `grep millionth data.txt`, or you could simply open the data.txt with Vim and `Ctrl + F` the word millionth.
+
+![image](https://github.com/sena-00/bandit/assets/156020094/fa61988b-5d30-4920-af3a-19a66c4f5e9d)
+
+
+
+
 
 
 
