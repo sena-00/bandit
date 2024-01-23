@@ -82,7 +82,7 @@ First, use the `ls` command to list the files. We can see a "data.txt" file and 
 ## Bandit 8
 <div id='id-section10'/>
 
-When entering this level, you are searching for a string that occurs only once in the data.txt file. To solve this, you can use `uniq` to filter based on identical lines. You can also use `-u` flag to only show lines that appear once in the file. With a simple sort, you get the password for the next level.
+When entering this level, you are searching for a string that occurs only once in the data.txt file. To solve this, you can use `uniq` to filter based on identical lines. You can also use `-u` flag to only show lines that appear once in the file. With a simple sort, you get the password for the next level. `sort data.txt | uniq -u`
 
 
 
