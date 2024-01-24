@@ -105,6 +105,8 @@ You are greeted with a data.txt file that is encoded in base64. To solve this yo
 
 ![image](https://github.com/sena-00/bandit/assets/156020094/087b7672-b018-4684-82f1-94c706c150bc)
 
+## Bandit 11
+<div id='id-section13'/>
 
 
 
