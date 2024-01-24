@@ -112,6 +112,8 @@ In this level you are looking at a Rot13 translation for the data.txt file. To g
 
 ![image](https://github.com/sena-00/bandit/assets/156020094/fe27ee23-a3b5-4843-b6eb-58a532b815ff)
 
+## Bandit 12
+<div id='id-section13'/>
 
 
 
