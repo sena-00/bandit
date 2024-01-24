@@ -98,6 +98,13 @@ Armed with that information, you cant use `grep "==="` and look for 3 equal symb
 
 ![image](https://github.com/sena-00/bandit/assets/156020094/3af14223-77e9-4de9-a9cc-b1a2708e56f2)
 
+## Bandit 10
+<div id='id-section12'/>
+
+You are greeted with a data.txt file that is encoded in base64. To solve this you can simply decode it with `base64 -d data.txt`.
+
+![image](https://github.com/sena-00/bandit/assets/156020094/087b7672-b018-4684-82f1-94c706c150bc)
+
 
 
 
