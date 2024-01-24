@@ -89,6 +89,15 @@ When entering this level, you are searching for a string that occurs only once i
 ## Bandit 9
 <div id='id-section11'/>
 
+Now, you are looking for a password, which is located in the "data.txt" file. It is human-readable and preceded by several "=". There are many ways to solve this, one i find incredibly easy however might not work everytime:
+- You are looking several "=" (This means more than two but not many)
+- It is human readable
+- You already know that passwords commonly have about 30 characters
+
+Armed with that information, you cant use `grep "==="` and look for 3 equal symbols (since we dont know the actual number of symbols) + `data.txt --text`, pointing to the file and requesting text only.
+
+![image](https://github.com/sena-00/bandit/assets/156020094/3af14223-77e9-4de9-a9cc-b1a2708e56f2)
+
 
 
 
