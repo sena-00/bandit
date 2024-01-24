@@ -108,6 +108,12 @@ You are greeted with a data.txt file that is encoded in base64. To solve this yo
 ## Bandit 11
 <div id='id-section13'/>
 
+In this level you are looking at a Rot13 translation for the data.txt file. To get the information you need, you can use `cat data.txt` concatenated with `tr '[a-z][A-Z]' '[n-za-m][N-ZA-M]'`. The last part of the code swaps 13 positions in the alphabet.
+
+![image](https://github.com/sena-00/bandit/assets/156020094/56160d6e-215a-412d-a646-25f9c5d52198)
+
+
+
 
 
 
