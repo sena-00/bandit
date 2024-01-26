@@ -115,6 +115,7 @@ In this level you are looking at a Rot13 translation for the data.txt file. To g
 ## Bandit 12
 <div id='id-section13'/>
 
+In this level, you are looking for a password in a hexdump file that has been repeatedly compressed. In this level we will use many commands to decompress the file provided. First, we must create a folder where the decompression will take place. You can create you folder on /tmp/YourFolderNameHere. Lets begin by creating the folder: `mkdir /tmp/homer`. Now copy the "data.txt" file to your folder: `cp data.txt /tmp/homer`. At last, change you directory to the folder you have just created: `cd /tmp/homer`
 
 
 
