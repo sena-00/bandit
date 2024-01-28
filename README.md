@@ -120,6 +120,8 @@ In this level, you are looking for a password in a hexdump file that has been re
 - Now copy the "data.txt" file to your folder: `cp data.txt /tmp/homer`.
 - At last, change you directory to the folder you have just created: `cd /tmp/homer`
 
+Now, if you take a look inside the file you just copied:
+
 
 
 
