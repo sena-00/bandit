@@ -120,7 +120,10 @@ In this level, you are looking for a password in a hexdump file that has been re
 - Now copy the "data.txt" file to your folder: `cp data.txt /tmp/homer`.
 - At last, change you directory to the folder you have just created: `cd /tmp/homer`
 
-Now, if you take a look inside the file you just copied:
+Now, if you take a look inside the file you just copied its not readable since it is a hexdump. To reverse this process use `xxd -r data.txt newdata`. Checking out the newly generated file by `file newdata`, you can see that "newdata" is now a gzip file. Rename the file to "newdata.gz" and use gzip to decompress with `gzip -d newdata.gz`.
+
+![image](https://github.com/sena-00/bandit/assets/156020094/2a35950e-e28f-4945-be26-a46397584b4f)
+
 
 
 
