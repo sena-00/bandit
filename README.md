@@ -124,6 +124,7 @@ Now, if you take a look inside the file you just copied its not readable since i
 
 ![image](https://github.com/sena-00/bandit/assets/156020094/2a35950e-e28f-4945-be26-a46397584b4f)
 
+Now when using the command `file newdata`, you are looking at a bzip file. To decompress it, first rename the file with bz2 extension `mv newdata newdata.bz2`, then `bzip2 -d newdata.bz2`
 
 
 
