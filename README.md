@@ -126,6 +126,7 @@ Now, if you take a look inside the file you just copied its not readable since i
 
 Now when using the command `file newdata`, you are looking at a bzip file. To decompress it, first rename the file with bz2 extension `mv newdata newdata.bz2`, then `bzip2 -d newdata.bz2`
 
+This whole process will repeat until we have a final, readable file with the password.
 
 
 
