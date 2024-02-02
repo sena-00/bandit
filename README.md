@@ -129,6 +129,7 @@ Now when using the command `file newdata`, you are looking at a bzip file. To de
 This whole process will repeat until we have a final, readable file with the password. Using `file` we can see that we have a *tar*.
 - Rename the file `mv newdata newdata.tar`
 - Decompress the file `tar -xf newdata.tar`
+- 
 
 
 
