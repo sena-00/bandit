@@ -129,8 +129,9 @@ Now when using the command `file newdata`, you are looking at a bzip file. To de
 This whole process will repeat until we have a final, readable file with the password. Using `file` we can see that we have a *tar*.
 - Rename the file `mv newdata newdata.tar`
 - Decompress the file `tar -xf newdata.tar`
-- A new file has appeared: data5.bin. Run `file data5.bin`, it is shown as a POSIX tar archive. Change the name with `mv data5.bin data5.tar`. Now use  `tar -xf data5.tar`.
-- A new file has appeared: data6.bin. 
+- A new file has appeared: data5.bin. Run `file data5.bin`. A POSIX tar archive is shown. Rename it with `mv data5.bin data5.tar`. Now use  `tar -xf data5.tar`.
+- A new file has appeared: data6.bin. Run `file data6.bin`. A bzip2 file is shown. Rename it with `mv data6.bin data6.bz2`. Now use `bzip2 -d data6.bz2`
+- A the old data6 is now a .tar file. Run `mv data6 data6.tar` and then `tar -xf data6.tar`. 
 
 
 
