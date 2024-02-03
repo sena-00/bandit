@@ -135,12 +135,10 @@ This whole process will repeat until we have a final, readable file with the pas
 - A new file has appeared: data8.bin. Run `file data8.bin`. A gzip file is shown. Rename it with `mv data8.bin data8.gz`. Now use `gzip -d data8.gz`.
 - Finally you have the final data8 file which is ASCII Text. Run `cat data8` and there is your password.
 
-![image](https://github.com/sena-00/bandit/assets/156020094/f7e81cee-b0a6-49dc-98b5-0a05b89c250c)
-
 ## Bandit 13
 <div id='id-section14'/>
 
-The password for this level is located in `/etc/bandit_pass/bandit14` and can only be read by user **bandit14**. You will not have a ASCII text password however, but rather a SSH key,
+The password for this level is located in `/etc/bandit_pass/bandit14` and can only be read by user **bandit14**. You will not have a ASCII text password however, but rather a SSH key.
 
 
 
