@@ -140,6 +140,7 @@ This whole process will repeat until we have a final, readable file with the pas
 ## Bandit 13
 <div id='id-section14'/>
 
+The password for this level is located in `/etc/bandit_pass/bandit14` and can only be read by user **bandit14**. You will not have a ASCII text password however, but rather a SSH key,
 
 
 
