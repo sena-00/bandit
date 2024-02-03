@@ -137,7 +137,8 @@ This whole process will repeat until we have a final, readable file with the pas
 
 ![image](https://github.com/sena-00/bandit/assets/156020094/f7e81cee-b0a6-49dc-98b5-0a05b89c250c)
 
-
+## Bandit 13
+<div id='id-section14'/>
 
 
 
