@@ -1,4 +1,4 @@
-![image](https://github.com/sena-00/bandit/assets/156020094/85591ab8-068b-4417-9bc2-70b0df5baebc)# Bandit - Over The Wire
+# Bandit - Over The Wire
 >[!WARNING]
 >This is a tutorial for the CTF Bandit, by OverTheWire. If you have not yet completed yourself, go try it out.
 >This file contains spoilers and solutions for the game
@@ -147,8 +147,8 @@ Lets use the SSH key to login to the server. First, use the command `ssh bandit1
 <div id='id-section15'/>
 
 To resolve bandit14, you must submit the password of the current level, to localhost on port 30000. 
-- To do this, use the command echo with the password: `echo fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq`
-- Now use nc localhost 30000
+- To do this, use the command echo with the password: `echo fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq`.
+- Now use nc localhost 30000.
 
 ![image](https://github.com/sena-00/bandit/assets/156020094/b36a79b1-2c9e-4ecf-8d3d-2f419efa2568)
 
