@@ -140,9 +140,9 @@ This whole process will repeat until we have a final, readable file with the pas
 
 The password for this level is located in `/etc/bandit_pass/bandit14` and can only be read by user **bandit14**. You will not have a ASCII text password however, but rather a SSH key.
 Lets use the SSH key to login to the server. First, use the command `ssh bandit14@localhost -i sshkey.private -p 2220`. Type **yes** for the connection request and then `cat /etc/bandit_pass/bandit14`
-`bandit14@bandit:~$ cat /etc/bandit_pass/bandit14  
-fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq  
-`
+
+![image](https://github.com/sena-00/bandit/assets/156020094/f3a50c53-1297-47c4-8727-4e4346b9e178)
+
 
 
 
