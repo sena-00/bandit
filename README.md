@@ -155,6 +155,8 @@ To resolve bandit14, you must submit the password of the current level, to local
 ## Bandit 15
 <div id='id-section16'/>
 
+The password for this level by submitting the password of the current level to port 30001 on localhost using SSL encryption
+
 
 
 
