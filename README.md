@@ -155,7 +155,7 @@ To resolve bandit14, you must submit the password of the current level, to local
 ## Bandit 15
 <div id='id-section16'/>
 
-The password for this level by submitting the password of the current level to port 30001 on localhost using SSL encryption. To solve this, first copy the password for the current level to the clipboard.
+The password for this level by submitting the password of the current level to port 30001 on localhost using SSL encryption. To solve this, first copy the password for the current level to the clipboard. After entering the level, use the command `openssl s_client -connect localhost:30001`. When the connection is stablished, you should see "read R BLOCK". Just paste the password with `Ctrl + Shift + V` and hit enter.
 
 ![image](https://github.com/sena-00/bandit/assets/156020094/e7c42035-3e30-4ed4-9ea0-655d055bea47)
 
