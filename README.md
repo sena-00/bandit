@@ -155,7 +155,10 @@ To resolve bandit14, you must submit the password of the current level, to local
 ## Bandit 15
 <div id='id-section16'/>
 
-The password for this level by submitting the password of the current level to port 30001 on localhost using SSL encryption.
+The password for this level by submitting the password of the current level to port 30001 on localhost using SSL encryption. To solve this, first copy the password for the current level to the clipboard.
+
+![image](https://github.com/sena-00/bandit/assets/156020094/e7c42035-3e30-4ed4-9ea0-655d055bea47)
+
 
 
 
