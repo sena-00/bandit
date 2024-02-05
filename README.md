@@ -152,6 +152,10 @@ To resolve bandit14, you must submit the password of the current level, to local
 
 ![image](https://github.com/sena-00/bandit/assets/156020094/b36a79b1-2c9e-4ecf-8d3d-2f419efa2568)
 
+## Bandit 15
+<div id='id-section16'/>
+
+
 
 
 
