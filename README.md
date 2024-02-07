@@ -162,9 +162,7 @@ The password for this level by submitting the password of the current level to p
 ## Bandit 16
 <div id='id-section17'/>
 
-In this level, we are looking for open ports that speak SSL. 
-
-
+In this level, we are looking for open ports that speak SSL. First, lets begin by using `nmap localhost -p 31000-32000` to list open ports on local host.
 
 
 
