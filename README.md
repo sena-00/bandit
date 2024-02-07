@@ -164,5 +164,12 @@ The password for this level by submitting the password of the current level to p
 
 In this level, we are looking for open ports that speak SSL. First, lets begin by using `nmap localhost -p 31000-32000` to list open ports on local host.
 
+![image](https://github.com/sena-00/bandit/assets/156020094/7c711d04-7511-4294-bcb5-db1ab8cadb39)
+
+We can see that there are 05 open ports. Lets 
+
+
+
+
 
 
