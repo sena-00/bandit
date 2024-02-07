@@ -162,6 +162,8 @@ The password for this level by submitting the password of the current level to p
 ## Bandit 16
 <div id='id-section17'/>
 
+In this level, we are looking for open ports that speak SSL. 
+
 
 
 
