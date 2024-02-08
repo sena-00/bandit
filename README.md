@@ -92,7 +92,9 @@ There are many approaches to solve this. In this example, you can use the `find`
 
 First, use the `ls` command to list the files. We can see a "data.txt" file and we are searching for the text next to the word "millionth". You can use grep to complete this task with `grep millionth data.txt`, or you could simply open the data.txt with Vim and `Ctrl + F` the word millionth.
 
-![image](https://github.com/sena-00/bandit/assets/156020094/fa61988b-5d30-4920-af3a-19a66c4f5e9d)
+<p>
+<img src="https://github.com/sena-00/bandit/assets/156020094/fa61988b-5d30-4920-af3a-19a66c4f5e9d" width="600" height100">
+</p>
 
 ## Bandit 8
 <div id='id-section10'/>
@@ -113,21 +115,27 @@ Now, you are looking for a password, which is located in the "data.txt" file. It
 
 Armed with that information, you cant use `grep "==="` and look for 3 equal symbols (since we dont know the actual number of symbols) + `data.txt --text`, pointing to the file and requesting text only.
 
-![image](https://github.com/sena-00/bandit/assets/156020094/3af14223-77e9-4de9-a9cc-b1a2708e56f2)
+<p>
+<img src="hhttps://github.com/sena-00/bandit/assets/156020094/3af14223-77e9-4de9-a9cc-b1a2708e56f2" width="600" height="500">
+</p>
 
 ## Bandit 10
 <div id='id-section12'/>
 
 You are greeted with a data.txt file that is encoded in base64. To solve this you can simply decode it with `base64 -d data.txt`.
 
-![image](https://github.com/sena-00/bandit/assets/156020094/087b7672-b018-4684-82f1-94c706c150bc)
+<p>
+<img src="https://github.com/sena-00/bandit/assets/156020094/087b7672-b018-4684-82f1-94c706c150bc" width="600" height="350">
+</p>
 
 ## Bandit 11
 <div id='id-section13'/>
 
 In this level you are looking at a Rot13 translation for the data.txt file. To get the information you need, you can use `cat data.txt` concatenated with `tr '[a-z][A-Z]' '[n-za-m][N-ZA-M]'`. The last part of the code swaps 13 positions in the alphabet.
 
-![image](https://github.com/sena-00/bandit/assets/156020094/fe27ee23-a3b5-4843-b6eb-58a532b815ff)
+<p>
+<img src="https://github.com/sena-00/bandit/assets/156020094/fe27ee23-a3b5-4843-b6eb-58a532b815ff" width="600" height="150">
+</p>
 
 ## Bandit 12
 <div id='id-section13'/>
@@ -139,8 +147,10 @@ In this level, you are looking for a password in a hexdump file that has been re
 
 Now, if you take a look inside the file you just copied its not readable since it is a hexdump. To reverse this process use `xxd -r data.txt newdata`. Checking out the newly generated file by `file newdata`, you can see that "newdata" is now a gzip file. Rename the file to "newdata.gz" and use gzip to decompress with `gzip -d newdata.gz`.
 
-![image](https://github.com/sena-00/bandit/assets/156020094/2a35950e-e28f-4945-be26-a46397584b4f)
-
+<p>
+<img src="https://github.com/sena-00/bandit/assets/156020094/2a35950e-e28f-4945-be26-a46397584b4f" width="600" height="200">
+</p>
+  
 Now when using the command `file newdata`, you are looking at a bzip file. To decompress it, first rename the file with bz2 extension `mv newdata newdata.bz2`, then `bzip2 -d newdata.bz2`
 
 This whole process will repeat until we have a final, readable file with the password. Using `file` we can see that we have a *tar*.
@@ -158,7 +168,9 @@ This whole process will repeat until we have a final, readable file with the pas
 The password for this level is located in `/etc/bandit_pass/bandit14` and can only be read by user **bandit14**. You will not have a ASCII text password however, but rather a SSH key.
 Lets use the SSH key to login to the server. First, use the command `ssh bandit14@localhost -i sshkey.private -p 2220` (This must be done inside user bandit13). Type **yes** for the connection request and then `cat /etc/bandit_pass/bandit14`
 
-![image](https://github.com/sena-00/bandit/assets/156020094/f3a50c53-1297-47c4-8727-4e4346b9e178)
+<p>
+<img src="https://github.com/sena-00/bandit/assets/156020094/f3a50c53-1297-47c4-8727-4e4346b9e178" width="600" height="200">
+</p>
 
 ## Bandit 14
 <div id='id-section15'/>
@@ -167,21 +179,26 @@ To resolve bandit14, you must submit the password of the current level, to local
 - To do this, use the command echo with the password: `echo fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq`.
 - Now use nc localhost 30000.
 
-![image](https://github.com/sena-00/bandit/assets/156020094/b36a79b1-2c9e-4ecf-8d3d-2f419efa2568)
+<p>
+<img src="https://github.com/sena-00/bandit/assets/156020094/b36a79b1-2c9e-4ecf-8d3d-2f419efa2568" width="600" height="150">
+</p>
 
 ## Bandit 15
 <div id='id-section16'/>
 
 The password for this level by submitting the password of the current level to port 30001 on localhost using SSL encryption. To solve this, first copy the password for the current level to the clipboard. After entering the level, use the command `openssl s_client -connect localhost:30001`. When the connection is stablished, you should see "read R BLOCK". Just paste the password with `Ctrl + Shift + V` and hit enter.
 
-![image](https://github.com/sena-00/bandit/assets/156020094/e7c42035-3e30-4ed4-9ea0-655d055bea47)
+<p>
+<img src="https://github.com/sena-00/bandit/assets/156020094/e7c42035-3e30-4ed4-9ea0-655d055bea47" width="600" height="500">
 
 ## Bandit 16
 <div id='id-section17'/>
 
 In this level, we are looking for open ports that speak SSL. First, lets begin by using `nmap localhost -p 31000-32000` to list open ports on local host.
 
-![image](https://github.com/sena-00/bandit/assets/156020094/7c711d04-7511-4294-bcb5-db1ab8cadb39)
+<p>
+<img src="https://github.com/sena-00/bandit/assets/156020094/7c711d04-7511-4294-bcb5-db1ab8cadb39" width="600" height="250">
+</p>
 
 We can see that there are 05 open ports. If you are in the correct port, replying with the password of the current level should return a RSA Key to the next level. If you are at the wrong port, either no option to reply will appear, or the port will simply give back the password you sent.
 1. Trying to connect to 31046 with `openssl s_client -connect localhost:31046` does not allow for replies.
@@ -189,7 +206,9 @@ We can see that there are 05 open ports. If you are in the correct port, replyin
 3. Trying to connect to 31046 with `openssl s_client -connect localhost:31691` does not allow for replies.
 4. Trying to connect to 31046 with `openssl s_client -connect localhost:31790` accepts the password and returns the RSA Key.
 
-![image](https://github.com/sena-00/bandit/assets/156020094/59e01e84-7f9b-4521-8ed3-9b70f0940337)
+<p>
+<img src="https://github.com/sena-00/bandit/assets/156020094/59e01e84-7f9b-4521-8ed3-9b70f0940337" width="600" height="600">
+</p>
 
 
 
