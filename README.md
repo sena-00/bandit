@@ -116,7 +116,7 @@ Now, you are looking for a password, which is located in the "data.txt" file. It
 Armed with that information, you cant use `grep "==="` and look for 3 equal symbols (since we dont know the actual number of symbols) + `data.txt --text`, pointing to the file and requesting text only.
 
 <p align="center">
-<img src="hhttps://github.com/sena-00/bandit/assets/156020094/3af14223-77e9-4de9-a9cc-b1a2708e56f2" width="600" height="500">
+<img src="https://github.com/sena-00/bandit/assets/156020094/3af14223-77e9-4de9-a9cc-b1a2708e56f2" width="600" height="500">
 </p>
 
 ## Bandit 10
