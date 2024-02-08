@@ -17,7 +17,7 @@ Check for more info in the official website: https://overthewire.org and https:/
 The username for this level is **Bandit0** and the password is **Bandit0**.
 After logging in the server, type 'ls' to list the directory. After that, you can use the command 'cat' to read the file.
 
-<p>
+<p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/c355c4d3-be48-45a9-b339-75338a64f9f7" width="600" height="500">
 </p>  
 
@@ -27,7 +27,7 @@ After logging in the server, type 'ls' to list the directory. After that, you ca
 Log in to the server with **bandit1** username and the specified password.
 Using `ls` to list the directory a "-" is shown. To open this file, use `cat ./-` 
 
-<p>
+<p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/e903c0cc-fe62-4971-9d82-22c4f64e99e0" width="600" height="500">
 </p>  
   
@@ -37,7 +37,7 @@ Using `ls` to list the directory a "-" is shown. To open this file, use `cat ./-
 After logging in into the server with the username and password, list the directory using `ls`. A file named "spaces in this filename" will be shown.
 To open files with spaces in bash, you need to use "\" for each space. In this case: `cat spaces\ in\ this\ filename`.
 
-<p>
+<p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/ef84543a-932b-4d55-b0f5-7d0fd7614a4d" width="600" height="500">
 </p>
 
@@ -47,7 +47,7 @@ To open files with spaces in bash, you need to use "\" for each space. In this c
 Log in with the **bandit3** username and password. Use `ls` to list the directories. a folder "inhere"(listed in blue) will be shown. If you try listing again with `ls` nothing is shown.
 This is because the file is named ".hidden", and will be automatically ignored when using `ls`. Instead try `ls -a` to list all files and `cat .hidden` to show the password.
 
-<p>
+<p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/26532bc1-0099-4b17-9a03-4a531f3c6438" width="600" height="500">
 </p>
 
@@ -56,7 +56,7 @@ This is because the file is named ".hidden", and will be automatically ignored w
 
 Log in with the **bandit4** username and password and follow the same previous steps. Use `cd inhere` to enter the folder. List the directory using `ls -a`. We can see that there are numerous files inside and we are looking for the only human readable file, this is, a text file. To this effeciently, use the command `file` + `./*`. This will show all the files in the directory aswell as the type.
 
-<p>
+<p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/dfa0c8c7-9f2e-4ebe-815a-74d010c540ac" width="600" height="500">
 </p>
 
@@ -69,7 +69,7 @@ After logged in, enter the "inhere" folder and list the directory. The file we a
 - not executable
 You defenitely can and should search the file with all the details provided. However, using `find -size 1033c` does the trick. "Find" is used for navigating files. 1033 is the size and "c" for bytes.
 
-<p>
+<p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/4ce20226-78ac-44b0-b8b9-70684a99b140" width="600" height="500">
 </p>
 
@@ -83,7 +83,7 @@ Log in with the username and password for **bandit6**. In this level we are look
 
 There are many approaches to solve this. In this example, you can use the `find` command + `-type f -user bandit7 -group bandit6 -size 33c 2>/dev/null`. This will show **files* that are: 1. Owned by user "bandit7", 2. Owned by group "bandit7", 3. Of 33 bytes in size and 4. append all the "permission denied" messages
 
-<p>
+<p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/1230dc04-246f-45ee-8927-b1fb931a4871" width="600" height="500">
 </p>
 
@@ -92,7 +92,7 @@ There are many approaches to solve this. In this example, you can use the `find`
 
 First, use the `ls` command to list the files. We can see a "data.txt" file and we are searching for the text next to the word "millionth". You can use grep to complete this task with `grep millionth data.txt`, or you could simply open the data.txt with Vim and `Ctrl + F` the word millionth.
 
-<p>
+<p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/fa61988b-5d30-4920-af3a-19a66c4f5e9d" width="600" height100">
 </p>
 
@@ -101,7 +101,7 @@ First, use the `ls` command to list the files. We can see a "data.txt" file and 
 
 When entering this level, you are searching for a string that occurs only once in the data.txt file. To solve this, you can use `uniq` to filter based on identical lines. You can also use `-u` flag to only show lines that appear once in the file. With a simple sort, you get the password for the next level. `sort data.txt | uniq -u`
 
-<p>
+<p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/354136bb-1c0f-4576-9026-705757506cb9" width="600" height="500">
 </p>
 
@@ -115,7 +115,7 @@ Now, you are looking for a password, which is located in the "data.txt" file. It
 
 Armed with that information, you cant use `grep "==="` and look for 3 equal symbols (since we dont know the actual number of symbols) + `data.txt --text`, pointing to the file and requesting text only.
 
-<p>
+<p align="center">
 <img src="hhttps://github.com/sena-00/bandit/assets/156020094/3af14223-77e9-4de9-a9cc-b1a2708e56f2" width="600" height="500">
 </p>
 
@@ -124,7 +124,7 @@ Armed with that information, you cant use `grep "==="` and look for 3 equal symb
 
 You are greeted with a data.txt file that is encoded in base64. To solve this you can simply decode it with `base64 -d data.txt`.
 
-<p>
+<p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/087b7672-b018-4684-82f1-94c706c150bc" width="600" height="350">
 </p>
 
@@ -133,7 +133,7 @@ You are greeted with a data.txt file that is encoded in base64. To solve this yo
 
 In this level you are looking at a Rot13 translation for the data.txt file. To get the information you need, you can use `cat data.txt` concatenated with `tr '[a-z][A-Z]' '[n-za-m][N-ZA-M]'`. The last part of the code swaps 13 positions in the alphabet.
 
-<p>
+<p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/fe27ee23-a3b5-4843-b6eb-58a532b815ff" width="600" height="150">
 </p>
 
@@ -147,7 +147,7 @@ In this level, you are looking for a password in a hexdump file that has been re
 
 Now, if you take a look inside the file you just copied its not readable since it is a hexdump. To reverse this process use `xxd -r data.txt newdata`. Checking out the newly generated file by `file newdata`, you can see that "newdata" is now a gzip file. Rename the file to "newdata.gz" and use gzip to decompress with `gzip -d newdata.gz`.
 
-<p>
+<p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/2a35950e-e28f-4945-be26-a46397584b4f" width="600" height="200">
 </p>
   
@@ -168,7 +168,7 @@ This whole process will repeat until we have a final, readable file with the pas
 The password for this level is located in `/etc/bandit_pass/bandit14` and can only be read by user **bandit14**. You will not have a ASCII text password however, but rather a SSH key.
 Lets use the SSH key to login to the server. First, use the command `ssh bandit14@localhost -i sshkey.private -p 2220` (This must be done inside user bandit13). Type **yes** for the connection request and then `cat /etc/bandit_pass/bandit14`
 
-<p>
+<p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/f3a50c53-1297-47c4-8727-4e4346b9e178" width="600" height="200">
 </p>
 
@@ -179,7 +179,7 @@ To resolve bandit14, you must submit the password of the current level, to local
 - To do this, use the command echo with the password: `echo fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq`.
 - Now use nc localhost 30000.
 
-<p>
+<p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/b36a79b1-2c9e-4ecf-8d3d-2f419efa2568" width="600" height="150">
 </p>
 
@@ -188,7 +188,7 @@ To resolve bandit14, you must submit the password of the current level, to local
 
 The password for this level by submitting the password of the current level to port 30001 on localhost using SSL encryption. To solve this, first copy the password for the current level to the clipboard. After entering the level, use the command `openssl s_client -connect localhost:30001`. When the connection is stablished, you should see "read R BLOCK". Just paste the password with `Ctrl + Shift + V` and hit enter.
 
-<p>
+<p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/e7c42035-3e30-4ed4-9ea0-655d055bea47" width="600" height="500">
 
 ## Bandit 16
@@ -196,7 +196,7 @@ The password for this level by submitting the password of the current level to p
 
 In this level, we are looking for open ports that speak SSL. First, lets begin by using `nmap localhost -p 31000-32000` to list open ports on local host.
 
-<p>
+<p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/7c711d04-7511-4294-bcb5-db1ab8cadb39" width="600" height="250">
 </p>
 
@@ -206,7 +206,7 @@ We can see that there are 05 open ports. If you are in the correct port, replyin
 3. Trying to connect to 31046 with `openssl s_client -connect localhost:31691` does not allow for replies.
 4. Trying to connect to 31046 with `openssl s_client -connect localhost:31790` accepts the password and returns the RSA Key.
 
-<p>
+<p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/59e01e84-7f9b-4521-8ed3-9b70f0940337" width="600" height="600">
 </p>
 
