@@ -166,7 +166,9 @@ In this level, we are looking for open ports that speak SSL. First, lets begin b
 
 ![image](https://github.com/sena-00/bandit/assets/156020094/7c711d04-7511-4294-bcb5-db1ab8cadb39)
 
-We can see that there are 05 open ports. If you are in the correct port, replying with the password of the current level should return a SSL Key to the next level.
+We can see that there are 05 open ports. If you are in the correct port, replying with the password of the current level should return a SSL Key to the next level. If you are at the wrong port, either no option to reply will appear, or the port will simply give back the password you sent.
+1. Trying to connect to 31046 with `openssl s_client -connect localhost:31046` does not allow for replies.
+2. Trying to connect to 31046 with `openssl s_client -connect localhost:31518` 
 
 
 
