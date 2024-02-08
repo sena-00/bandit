@@ -207,7 +207,7 @@ We can see that there are 05 open ports. If you are in the correct port, replyin
 4. Trying to connect to 31046 with `openssl s_client -connect localhost:31790` accepts the password and returns the RSA Key.
 
 <p align="center">
-<img src="https://github.com/sena-00/bandit/assets/156020094/59e01e84-7f9b-4521-8ed3-9b70f0940337" width="400" height="500">
+<img src="https://github.com/sena-00/bandit/assets/156020094/59e01e84-7f9b-4521-8ed3-9b70f0940337" width="400" height="600">
 </p>
 
 
