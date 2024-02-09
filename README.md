@@ -202,9 +202,9 @@ In this level, we are looking for open ports that speak SSL. First, lets begin b
 
 We can see that there are 05 open ports. If you are in the correct port, replying with the password of the current level should return a RSA Key to the next level. If you are at the wrong port, either no option to reply will appear, or the port will simply give back the password you sent.
 1. Trying to connect to 31046 with `openssl s_client -connect localhost:31046` does not allow for replies.
-2. Trying to connect to 31046 with `openssl s_client -connect localhost:31518` will send back the password you replied.
-3. Trying to connect to 31046 with `openssl s_client -connect localhost:31691` does not allow for replies.
-4. Trying to connect to 31046 with `openssl s_client -connect localhost:31790` accepts the password and returns the RSA Key.
+2. Trying to connect to 31518 with `openssl s_client -connect localhost:31518` will send back the password you replied.
+3. Trying to connect to 31691 with `openssl s_client -connect localhost:31691` does not allow for replies.
+4. Trying to connect to 31790 with `openssl s_client -connect localhost:31790` accepts the password and returns the RSA Key.
 
 <p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/59e01e84-7f9b-4521-8ed3-9b70f0940337" width="400" height="600">
