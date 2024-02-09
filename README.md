@@ -216,9 +216,10 @@ Copy the text starting in `---BEGIN RSA KEY---` til the end `---END RSA KEY---` 
 <img src="https://github.com/sena-00/bandit/assets/156020094/18c78d5c-ed4d-4b34-bd05-3a302dbc941c" width="600" height="150">
 </p>
 
-After pasting the RSA Key into the file and saving it, change the permissions of the file with `chmod 400 bandit17pass.key` and log in with 
+After pasting the RSA Key into the file and saving it, change the permissions of the file with `chmod 400 bandit17pass.key` and log in with `ssh -i bandit17pass.key bandit17@bandit.labs.overthewire.org -p 2220`.
 
-
+## Bandit 17
+<div id='id-section18'/>
 
 
 
