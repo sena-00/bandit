@@ -221,6 +221,4 @@ After pasting the RSA Key into the file and saving it, change the permissions of
 ## Bandit 17
 <div id='id-section18'/>
 
-
-
-
+When entering this level, we are presented with two files: *passwords.old* and *passwords.new*
