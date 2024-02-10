@@ -222,3 +222,6 @@ After pasting the RSA Key into the file and saving it, change the permissions of
 <div id='id-section18'/>
 
 When entering this level, we are presented with two files: *passwords.old* and *passwords.new*
+
+![image](https://github.com/sena-00/bandit/assets/156020094/eca96f68-25b7-45a2-9d09-e26c4007ce88)
+
