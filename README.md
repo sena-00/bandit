@@ -221,7 +221,7 @@ After pasting the RSA Key into the file and saving it, change the permissions of
 ## Bandit 17
 <div id='id-section18'/>
 
-When entering this level, we are presented with two files: *passwords.old* and *passwords.new*. The see the difference between both files you can use `diff passwords.new passwords.old`. Or the way i use it: `diff -y -W 70 passwords.new passwords.old`
+When entering this level, we are presented with two files: *passwords.old* and *passwords.new*. To see the difference between both files you can use `diff passwords.new passwords.old`. Or the way i use it: `diff -y -W 70 passwords.new passwords.old`
 
 <p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/eca96f68-25b7-45a2-9d09-e26c4007ce88" width="650" height="500">>
