@@ -239,3 +239,6 @@ If you try to login like you would normally, a bye-bye message is shown and the 
 <p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/e7e0bf1d-0e20-407a-9794-713389ed28c5" width="650" height="500">
 </p>
+
+## Bandit 19
+<div id='id-section18'/>
