@@ -232,7 +232,10 @@ As shown above, the password for the next level is `hga5tuuCLF6fFzUpnagiMN8ssu9L
 ## Bandit 18
 <div id='id-section18'/>
 
-If you try to login like you would normally, a bye-bye message is shown and the connection is dropped. The thing is, when using SSH, you can also execute commands such as `ls` or `cat`. Lets try to login via ssh and list the directories available with ` ssh -t bandit18@bandit.labs.overthewire.org -p 2220 ls`. 
+If you try to login like you would normally, a bye-bye message is shown and the connection is dropped. The thing is, when using SSH, you can also execute commands such as `ls` or `cat`. 
+1. Lets try to login via ssh and list the directories available with ` ssh -t bandit18@bandit.labs.overthewire.org -p 2220 ls`.
+2. Now opening the file with cat ` ssh -t bandit18@bandit.labs.overthewire.org -p 2220 cat readme` we can retrieve the password
 
-![image](https://github.com/sena-00/bandit/assets/156020094/e7e0bf1d-0e20-407a-9794-713389ed28c5)
-
+<p align="center">
+<img src="https://github.com/sena-00/bandit/assets/156020094/e7e0bf1d-0e20-407a-9794-713389ed28c5" width="650" height="500">
+</p>
