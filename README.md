@@ -226,3 +226,8 @@ When entering this level, we are presented with two files: *passwords.old* and *
 <p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/eca96f68-25b7-45a2-9d09-e26c4007ce88" width="650" height="500">>
 </p>
+
+As shown above, the password for the next level is `hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg`
+
+## Bandit 18
+<div id='id-section18'/>
