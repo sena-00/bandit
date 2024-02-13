@@ -255,7 +255,7 @@ For example, if i tried to open the password located in `/etc/bandit_pass/bandit
 <div id='id-section18'/>
 
 The goal for this level is to create a network daemon with netcat, that will receive the current level password(bandit20), and reply with the next level password(bandit21), and to accomplish this we must use the *suconnect* file in the home directory.
-We can start with `echo -n 'VxCazJaVykI6W36BkBU0mJTCM8rR95XT'` 
+We can start with `echo -n 'VxCazJaVykI6W36BkBU0mJTCM8rR95XT'`. This will input to the nc server the password for the current level. Then we can use `nc -l -p 7455 &`. (-l for listening / -p for port / & for background running).
 
 <p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/cf67720f-184b-42ca-9fe5-5da37e304eb1" width="700" height="200">
