@@ -251,4 +251,7 @@ For example, if i tried to open the password located in `/etc/bandit_pass/bandit
 </p>
 
 
+## Bandit 20
+<div id='id-section18'/>
+
 
