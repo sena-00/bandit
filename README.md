@@ -264,5 +264,8 @@ All that is left to do, is connecting with suconnect file to the port we have cr
 <img src="https://github.com/sena-00/bandit/assets/156020094/cf67720f-184b-42ca-9fe5-5da37e304eb1" width="700" height="200">
 </p>
 
+## Bandit 21
+<div id='id-section18'/>
+
 
 
