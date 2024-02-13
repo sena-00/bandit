@@ -247,7 +247,7 @@ In the home directory there is a *bandit20-do* file. When reading the permission
 For example, if i tried to open the password located in `/etc/bandit_pass/bandit20`, i would receive a *Permission Denied* message. However if i try to run `/etc/bandit_pass/bandit20` executing the file before hand, technically you are trying to access the password as bandit20, thus allowing the password to be shown: `/bandit20-do cat /etc/bandit_pass/bandit20`
 
 <p align="center">
-<img src="https://github.com/sena-00/bandit/assets/156020094/8dada258-a3e8-4a53-bbb2-4b2aea8e47b3" width="650" height="300">
+<img src="https://github.com/sena-00/bandit/assets/156020094/8dada258-a3e8-4a53-bbb2-4b2aea8e47b3" width="700" height="320">
 </p>
 
 
