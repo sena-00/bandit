@@ -1,4 +1,4 @@
-# Bandit - Over The Wire
+  # Bandit - Over The Wire
 >[!WARNING]
 >This is a tutorial for the CTF Bandit, by OverTheWire. If you have not yet completed yourself, go try it out.
 >This file contains spoilers and solutions for the game
@@ -260,7 +260,7 @@ We can start with `echo -n 'VxCazJaVykI6W36BkBU0mJTCM8rR95XT'`. This will input 
 
 All that is left to do, is connecting with suconnect file to the port we have created (you can create your own port number).
 
-<p align="center"
+<p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/cf67720f-184b-42ca-9fe5-5da37e304eb1" width="700" height="200">
 </p>
 
@@ -271,9 +271,10 @@ There is a program that is running regurlary with cron, located in `/etc/cron.d/
 Lets read what is inside this shell script with `cat /usr/bin/cronjob_bandit22.sh`. This script is giving the user RWX permissions for a file located in `/tmp` named *t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv*.
 If we cat the file above, we have access to bandit22's password.
 
-<p align="center"
-<img src="https://github.com/sena-00/bandit/assets/156020094/163f675c-5199-442e-9117-5a2295407f7f" width="700" height="200">
+<p align="center">
+<img src="https://github.com/sena-00/bandit/assets/156020094/163f675c-5199-442e-9117-5a2295407f7f" width="700" height="300">
 </p>
+
 
 
 
