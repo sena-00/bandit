@@ -278,6 +278,8 @@ If we cat the file above, we have access to bandit22's password.
 ## Bandit 22
 <div id='id-section18'/>
 
+This level starts the same as the previous. Lets navigate to the scrpt and see whats going on in the background with `cat /usr/bin/cronjob_bandit22.sh`
+
 <p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/7bfa1128-e75b-43a0-8b5c-02830026ec6c" width="650" height="500">
 </p>
