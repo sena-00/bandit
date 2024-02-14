@@ -275,6 +275,12 @@ If we cat the file above, we have access to bandit22's password.
 <img src="https://github.com/sena-00/bandit/assets/156020094/163f675c-5199-442e-9117-5a2295407f7f" width="700" height="300">
 </p>
 
+## Bandit 22
+<div id='id-section18'/>
+
+<p align="center">
+<img src="https://github.com/sena-00/bandit/assets/156020094/7bfa1128-e75b-43a0-8b5c-02830026ec6c" width="650" height="500">
+</p>
 
 
 
