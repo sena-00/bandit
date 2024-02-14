@@ -260,12 +260,19 @@ We can start with `echo -n 'VxCazJaVykI6W36BkBU0mJTCM8rR95XT'`. This will input 
 
 All that is left to do, is connecting with suconnect file to the port we have created (you can create your own port number).
 
-<p align="center">
+<p align="center"
 <img src="https://github.com/sena-00/bandit/assets/156020094/cf67720f-184b-42ca-9fe5-5da37e304eb1" width="700" height="200">
 </p>
 
 ## Bandit 21
 <div id='id-section18'/>
+
+There is a program that is running regurlary with cron, located in `/etc/cron.d/`. If we find out that the program is running, we may be able to get a hold of the next's level password. Lets navigate to the folder with `cd /etc/cron.d/`. There is a bandit22 file. Reading the file with `cat cronjob_bandit22`, we can tell that there is a shell script running 24/7.  
+Lets read what is inside this shell script with `cat /usr/bin/cronjob_bandit22.sh`
+
+![image](https://github.com/sena-00/bandit/assets/156020094/00c427db-9cd1-42d6-a364-53e3f219d600)
+
+
 
 
 
