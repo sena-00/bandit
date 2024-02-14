@@ -291,6 +291,9 @@ If we run the shell script as intented for the bandit23 user, the password is ou
 <img src="https://github.com/sena-00/bandit/assets/156020094/7bfa1128-e75b-43a0-8b5c-02830026ec6c" width="650" height="450">
 </p>
 
+## Bandit 22
+<div id='id-section18'/>
+
 
 
 
