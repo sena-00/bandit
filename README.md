@@ -278,10 +278,17 @@ If we cat the file above, we have access to bandit22's password.
 ## Bandit 22
 <div id='id-section18'/>
 
-This level starts the same as the previous. Lets navigate to the scrpt and see whats going on in the background with `cat /usr/bin/cronjob_bandit22.sh`
+This level starts the same as the previous. Lets navigate to the script and see whats going on in the background with `cat /usr/bin/cronjob_bandit22.sh`. According to the script: 
+1. Grabs the username from the command `echo I am user $myname`
+2. Send to md5sum and hashes the string with the password
+3. Outputs the password inside the file located in /tmp/
+
+If we run the shell script as intented for the bandit23 user, the password is outputed in the file.
+`echo I am user bandit23 | md5sum | cut -d ' ' -f 1`
+
 
 <p align="center">
-<img src="https://github.com/sena-00/bandit/assets/156020094/7bfa1128-e75b-43a0-8b5c-02830026ec6c" width="650" height="500">
+<img src="https://github.com/sena-00/bandit/assets/156020094/7bfa1128-e75b-43a0-8b5c-02830026ec6c" width="650" height="450">
 </p>
 
 
