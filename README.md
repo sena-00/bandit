@@ -294,6 +294,8 @@ If we run the shell script as intented for the bandit23 user, the password is ou
 ## Bandit 23
 <div id='id-section18'/>
 
+Again, this level start just as the previous one. Lets take a look in the script folder and see whats going on.
+
 ~~~
 #!/bin/bash
 
