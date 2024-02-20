@@ -210,7 +210,7 @@ We can see that there are 05 open ports. If you are in the correct port, replyin
 <img src="https://github.com/sena-00/bandit/assets/156020094/59e01e84-7f9b-4521-8ed3-9b70f0940337" width="400" height="600">
 </p>
 
-Copy the text starting in `---BEGIN RSA KEY---` til the end `---END RSA KEY---` (If you copy only the middle part this will not work). Now we are going to paste the RSA Key in a file. To create this file we must navigate to /tmp/ and we must create a directory. Use `cd /tmp`. Inside /tmp, create a directory and inside it create a file with *.key* extension. In my case i created *bandit17pass.key*. Now paste the RSA key into the file using `nano bandit17pass.key`
+Copy the text starting in `---BEGIN RSA PRIVATE KEY---` til the end `---END RSA PRIVATE KEY---` (If you copy only the middle part this will not work). Now we are going to paste the RSA Key in a file. To create this file we must navigate to /tmp/ and we must create a directory. Use `cd /tmp`. Inside /tmp, create a directory and inside it create a file with *.key* extension. In my case i created *bandit17pass.key*. Now paste the RSA key into the file using `nano bandit17pass.key`
 
 <p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/18c78d5c-ed4d-4b34-bd05-3a302dbc941c" width="600" height="120">
