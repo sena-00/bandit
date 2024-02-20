@@ -7,7 +7,7 @@
 <div id='id-section1'/>
 
 Bandit is a CTF game aimed for complete beginners in the hacking scenario. The purpose of the game is to teach you the basics of CLI(command line interface) hacking aswell as other important concepts of cybersecurity.
-The game gets progressively harder and it is composed of 33 Levels at the moment of this writing.
+The game gets progressively harder and it is composed of 33 Levels at the time of this writing.
 
 Check for more info in the official website: https://overthewire.org and https://overthewire.org/wargames/bandit/
 
