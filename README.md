@@ -318,7 +318,7 @@ done
 ~~~
 The script that is been run via cron executes everything in the folder `/var/spool/$myname/foo` and then deletes it. The *if* statement checks if the script is being run by bandit23.  
 All we have to do, is to create a script to fetch us the password, since any script running in the folder `var/spool/$myname/foo` will be executed.
-
+Lets begin by creating a folder in /tmp/ and creating our script to fetch the password.
 
 
 
