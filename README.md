@@ -301,8 +301,8 @@ Again, this level start just as the previous one. Lets take a look in the script
 
 myname=$(whoami)
 
-cd /var/spool/$myname
-echo "Executing and deleting all scripts in /var/spool/$myname:"
+cd /var/spool/$myname/foo
+echo "Executing and deleting all scripts in /var/spool/$myname/foo:"
 for i in * .*;
 do
     if [ "$i" != "." -a "$i" != ".." ];
@@ -316,7 +316,7 @@ do
     fi
 done
 ~~~
-The script that is been run via cron executes everything in the folder `/var/spool/$myname`
+The script that is been run via cron executes everything in the folder `/var/spool/$myname/foo` and then deletes it. The *if* statement checks if the script is being run by bandit23.
 
 
 
