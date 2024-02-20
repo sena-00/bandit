@@ -316,7 +316,7 @@ do
     fi
 done
 ~~~
-
+The script that is been run via cron executes everything in the folder `/var/spool/myname`
 
 
 
