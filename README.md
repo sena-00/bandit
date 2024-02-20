@@ -15,7 +15,7 @@ Check for more info in the official website: https://overthewire.org and https:/
 <div id='id-section2'/>
 
 The username for this level is **Bandit0** and the password is **Bandit0**.
-After logging in the server, type 'ls' to list the directory. After that, you can use the command 'cat' to read the file.
+After logging in the server, type `ls` to list the directory. After that, you can use the command `cat` to read the file.
 
 <p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/c355c4d3-be48-45a9-b339-75338a64f9f7" width="600" height="500">
