@@ -320,7 +320,7 @@ The script that is been run via cron executes everything in the folder `/var/spo
 All we have to do, is to create a script to fetch us the password, since any script running in the folder `var/spool/$myname/foo` will be executed.
 Lets begin by creating a folder in /tmp/ and creating our script to fetch the password.
 
-## Bandit 23
+## Bandit 24
 <div id='id-section18'/>
 
 In this level we are looking for a 4 digits PIN code. To go through all the combinations, we are going to use Brute Force.
@@ -333,7 +333,10 @@ do
 echo "UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ  $i" 
 done | nc localhost 30002  | grep -v Wrong
 ~~~~
-Lets change the permissions with `chmod 777 bruteforce.sh`
+Lets change the permissions with `chmod 777 bruteforce.sh`. Run the script and you'll get the password for the next level.
+
+## Bandit 25
+<div id='id-section18'/>
 
 
 
