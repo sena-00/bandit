@@ -12,7 +12,7 @@ The game gets progressively harder and it is composed of 33 Levels at the time o
 Check for more info in the official website: https://overthewire.org and https://overthewire.org/wargames/bandit/
 
 ## Bandit 0
-<div id='id-section2'/>
+<div id='id-section2'/> 
 
 The username for this level is **Bandit0** and the password is **Bandit0**.
 After logging in the server, type `ls` to list the directory. After that, you can use the command `cat` to read the file.
