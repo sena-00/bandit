@@ -324,6 +324,7 @@ Lets begin by creating a folder in /tmp/ and creating our script to fetch the pa
 <div id='id-section18'/>
 
 In this level we are looking for a 4 digits PIN code. To go through all the combinations, we are going to use Brute Force.
+We'll have to create a script for this. Lets begin by creating a folder in `/tmp/`
 
 
 
