@@ -333,6 +333,7 @@ do
 echo "UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ  $i" 
 done | nc localhost 30002  | grep -v Wrong
 ~~~~
+Lets change the permissions with `chmod 777 bruteforce.sh`
 
 
 
