@@ -42,7 +42,7 @@ To open files with spaces in bash, you need to use "\" for each space. In this c
 </p>
 
 ## Bandit 3
-<div id='id-section5'/>
+<div id='id-section5'/> 
 
 Log in with the **bandit3** username and password. Use `ls` to list the directories. a folder "inhere"(listed in blue) will be shown. If you try listing again with `ls` nothing is shown.
 This is because the file is named ".hidden", and will be automatically ignored when using `ls`. Instead try `ls -a` to list all files and `cat .hidden` to show the password.
