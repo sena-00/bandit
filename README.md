@@ -320,6 +320,11 @@ The script that is been run via cron executes everything in the folder `/var/spo
 All we have to do, is to create a script to fetch us the password, since any script running in the folder `var/spool/$myname/foo` will be executed.
 Lets begin by creating a folder in /tmp/ and creating our script to fetch the password.
 
+<p align="center">
+<img src="https://github.com/sena-00/bandit/assets/156020094/1e19135f-f86c-4285-9f72-4a530ac2ad03" width="600" height="500">
+</p>
+
+
 ## Bandit 24
 <div id='id-section18'/>
 
