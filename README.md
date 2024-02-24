@@ -335,8 +335,10 @@ Now, lets create a script `nano bruteforce.sh`. Inside the script lets add:
 #!/bin/bash 
 for i in {0000..9999}
 do 
-echo "UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ  $i" 
-done | nc localhost 30002  | grep -v Wrong
+`echo VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar $i >> pass.txt   
+done
+
+cat pass.txt | nc localhost 30002 > result.txt
 ~~~~
 Lets change the permissions with `chmod 777 bruteforce.sh`. Run the script and you'll get the password for the next level.
 
