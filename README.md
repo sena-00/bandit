@@ -355,7 +355,7 @@ bandit25@bandit:~$ cat /etc/passwd | grep bandit26
 bandit26:x:11026:11026:bandit level 26:/home/bandit26:/usr/bin/showtext
 bandit25@bandit:~$
 ~~~
-This tells us that instead of bin/bash, a "showtext" is being used. Find out whats going on with `cat /usr/bin/showtext`.
+This tells us that instead of /bin/bash, a "/bin/showtext" is being used. Find out whats going on with `cat /usr/bin/showtext`.
 ~~~
 bandit25@bandit:~$ cat /usr/bin/showtext
 #!/bin/shexport TERM=linuxmore ~/text.txt
