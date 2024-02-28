@@ -345,7 +345,9 @@ Lets change the permissions with `chmod 777 bruteforce.sh`. Run the script and y
 ## Bandit 25
 <div id='id-section18'/>
 
-After logged into the server, `ls` will show a *bandit26.sshkey*. Lets try using it as we did in Bandit13. Use the command `ssh bandit26@localhost -i bandit26.sshkey`.
+After logged into the server, `ls` will show a *bandit26.sshkey*. Lets try using it as we did in Bandit13. Use the command `ssh bandit26@localhost -i bandit26.sshkey`.  
+
+Trying to connect however will disconnect you from the local host
 
 
 
