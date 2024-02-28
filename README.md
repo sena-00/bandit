@@ -355,6 +355,10 @@ bandit25@bandit:~$ cat /etc/passwd | grep bandit26
 bandit26:x:11026:11026:bandit level 26:/home/bandit26:/usr/bin/showtext
 bandit25@bandit:~$
 ~~~
+This tells us that instead of bin/bash, a "showtext" is being used.
+~~~~
+cat /usr/bin/showtext
+~~~~
 
 
 
