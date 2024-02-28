@@ -347,8 +347,8 @@ Lets change the permissions with `chmod 777 bruteforce.sh`. Run the script and y
 
 After logged into the server, `ls` will show a *bandit26.sshkey*. Lets try using it as we did in [Bandit13](https://overthewire.org/wargames/bandit/bandit13.html). Use the command `ssh bandit26@localhost -i bandit26.sshkey`.  
 
-Trying to connect however will disconnect you from the local host
-
+Trying to connect however will disconnect you from the local host, too bad.
+The challenge states that the shell being used by bandit26 is not shell. To find out which one is being used, run `cat /etc/passwd | grep bandit26`
 
 
 
