@@ -350,6 +350,12 @@ After logged into the server, `ls` will show a *bandit26.sshkey*. Lets try using
 Trying to connect however will disconnect you from the local host, too bad.
 The challenge states that the shell being used by bandit26 is not shell. To find out which one is being used, run `cat /etc/passwd | grep bandit26`
 
+~~~
+bandit25@bandit:~$ cat /etc/passwd | grep bandit26
+bandit26:x:11026:11026:bandit level 26:/home/bandit26:/usr/bin/showtext
+bandit25@bandit:~$
+~~~
+
 
 
 
