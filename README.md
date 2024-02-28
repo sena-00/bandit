@@ -342,8 +342,6 @@ cat pass.txt | nc localhost 30002 > result.txt
 ~~~~
 Lets change the permissions with `chmod 777 bruteforce.sh`. Run the script and you'll get the password for the next level.
 
-
-
 ## Bandit 25
 <div id='id-section18'/>
 
