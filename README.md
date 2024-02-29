@@ -364,6 +364,9 @@ exit 0
 bandit25@bandit:~$
 ~~~
 
+## Bandit 26
+<div id='id-section18'/>
+
 
 
 
