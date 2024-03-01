@@ -344,6 +344,7 @@ Lets change the permissions with `chmod 777 bruteforce.sh`. Run the script with 
 <img src="https://github.com/sena-00/bandit/assets/156020094/321a0239-3b87-469e-a14c-99e15ba55f3f" width="600" height="500">
 </p>
 
+Lets now use netcat to connect to the localhost on port 30002 `nc localhost 30002 < combinations.txt`
 
 ## Bandit 25
 <div id='id-section18'/>
