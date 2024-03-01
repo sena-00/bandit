@@ -338,8 +338,12 @@ do
         echo "VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar $i"   
 done
 ~~~~
-Lets change the permissions with `chmod 777 bruteforce.sh`. Run the script and you'll get the password for the next level sent to the `result.txt`.
-For this you can use `grep bandit25 result.txt` 
+Lets change the permissions with `chmod 777 bruteforce.sh`. Run the script with `./bruteforce.sh > combinations.txt`. This is show all the possible combinations in one file.
+
+<p align="center">
+<img src="https://github.com/sena-00/bandit/assets/156020094/321a0239-3b87-469e-a14c-99e15ba55f3f" width="600" height="500">
+</p>
+
 
 ## Bandit 25
 <div id='id-section18'/>
