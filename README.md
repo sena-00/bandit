@@ -335,7 +335,8 @@ Now, lets create a script `nano bruteforce.sh`. Inside the script lets add:
 #!/bin/bash 
 for i in {0000..9999}
 do 
-        echo "VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar $i"   
+        echo "VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar $i"
+        sleep 0.001
 done
 ~~~~
 Lets change the permissions with `chmod 777 bruteforce.sh`. Run the script with `./bruteforce.sh > combinations.txt`. This is show all the possible combinations in one file.
