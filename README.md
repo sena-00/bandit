@@ -339,6 +339,7 @@ do
         sleep 0.001
 done
 ~~~~
+It is crucial to add `sleep 0.001`. If you dont do that, you'll overflow netcat, and after a few tries, nc will either timeout, or stop working.
 Lets change the permissions with `chmod 777 bruteforce.sh`. Run the script with `./bruteforce.sh > combinations.txt`. This is show all the possible combinations in one file.
 
 <p align="center">
