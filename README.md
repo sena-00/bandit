@@ -336,11 +336,15 @@ Now, lets create a script `nano bruteforce.sh`. Inside the script lets add:
 for i in {0000..9999}
 do 
         echo "VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar $i"
-        sleep 0.001
+        sleep 0.02
 done
 ~~~~
-It is crucial to add `sleep 0.001`. If you dont do that, you'll overflow netcat, and after a few tries, nc will either timeout, or stop working.
-Lets change the permissions with `chmod 777 bruteforce.sh`. Run the script with `./bruteforce.sh > combinations.txt`. This is show all the possible combinations in one file.
+It is crucial to add `sleep 0.02`. If you dont do that, you'll overflow netcat, and after a few tries, nc will either timeout, or stop working.
+Lets change the permissions with `chmod 777 bruteforce.sh`. Run the script with `./bruteforce.sh | nc localhost 30002`. The last line should show the correct password for the next level.
+
+<p align="center">
+<img src="https://github.com/sena-00/bandit/assets/156020094/8a4f5d64-df4e-48c2-bc04-50ff27756e8f" width="600" height="500">
+</p>
 
 <p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/321a0239-3b87-469e-a14c-99e15ba55f3f" width="600" height="500">
