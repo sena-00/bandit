@@ -340,13 +340,13 @@ do
 done
 ~~~~
 It is crucial to add `sleep 0.02`. If you dont do that, you'll overflow netcat, and after a few tries, nc will either timeout, or stop working.
-Lets change the permissions with `chmod 777 bruteforce.sh`. Run the script with `./bruteforce.sh | nc localhost 30002`. The last line should show the correct password for the next level.
+Lets change the permissions with `chmod 777 bruteforce.sh`.
 
 <p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/321a0239-3b87-469e-a14c-99e15ba55f3f" width="600" height="500">
 </p>
 
-Lets now use netcat to connect to the localhost on port 30002 `nc localhost 30002 < combinations.txt`
+Run the script with `./bruteforce.sh | nc localhost 30002`. The last line should show the correct password for the next level.
 
 <p align="center">
 <img src="https://github.com/sena-00/bandit/assets/156020094/8a4f5d64-df4e-48c2-bc04-50ff27756e8f" width="600" height="500">
