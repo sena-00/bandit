@@ -374,6 +374,8 @@ exec more ~/text.txt
 exit 0
 ~~~
 
+We can see that a *more* function is triggered, and that we`ll be using shell, instead of bash. This *more* mentioned, works when the terminal window is too small to show all the information.
+
 ## Bandit 26
 <div id='id-section18'/>
 
