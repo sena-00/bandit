@@ -364,7 +364,6 @@ The challenge states that the shell being used by bandit26 is not shell. To find
 <img src="https://github.com/sena-00/bandit/assets/156020094/05f1d4b1-a33a-4e10-99a6-3f10aa887ef8 width="600" height="500">
 </p>
 
-
 This tells us that instead of /bin/bash, a "/bin/showtext" is being used. Find out whats going on with `cat /usr/bin/showtext`.
 ~~~
 bandit25@bandit:~$ cat /usr/bin/showtext
