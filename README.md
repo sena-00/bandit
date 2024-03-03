@@ -366,10 +366,12 @@ The challenge states that the shell being used by bandit26 is not shell. To find
 
 This tells us that instead of /bin/bash, a "/bin/showtext" is being used. Find out whats going on with `cat /usr/bin/showtext`.
 ~~~
-bandit25@bandit:~$ cat /usr/bin/showtext
-#!/bin/shexport TERM=linuxmore ~/text.txt
+#!/bin/sh
+
+export TERM=linux
+
+exec more ~/text.txt
 exit 0
-bandit25@bandit:~$
 ~~~
 
 ## Bandit 26
