@@ -361,7 +361,7 @@ Trying to connect however will disconnect you from the local host, too bad.
 The challenge states that the shell being used by bandit26 is not shell. To find out which one is being used, run `cat /etc/passwd | grep bandit26`
 
 <p align="center">
-<img src="https://github.com/sena-00/bandit/assets/156020094/05f1d4b1-a33a-4e10-99a6-3f10aa887ef8 width="600" height="500">
+<img src="https://github.com/sena-00/bandit/assets/156020094/c87a4b0e-cb55-458a-9b87-db11bc61e541 width="600" height="500">
 </p>
 
 This tells us that instead of /bin/bash, a "/bin/showtext" is being used. Find out whats going on with `cat /usr/bin/showtext`.
